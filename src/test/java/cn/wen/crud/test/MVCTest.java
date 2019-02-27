@@ -30,6 +30,10 @@ import java.util.List;
 @ContextConfiguration(locations={"classpath:applicationContext.xml","file:src/main/webapp/WEB-INF/dispatcherServlet-servlet.xml"})
 public class MVCTest {
 
+	/**
+	 * 通过测试
+	 * @throws Exception
+	 */
 		// 传入Springmvc的ioc
 		@Autowired
 		WebApplicationContext context;
