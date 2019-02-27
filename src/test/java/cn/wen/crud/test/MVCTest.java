@@ -41,6 +41,10 @@ public class MVCTest {
 				mockMvc = MockMvcBuilders.webAppContextSetup(context).build();
 		}
 
+	/**
+	 * 通过测试
+	 * @throws Exception
+     */
 		@Test
 		public void testPage() throws Exception {
 				//模拟请求拿到返回值
@@ -65,6 +69,9 @@ public class MVCTest {
 				for (int i : nums) {
 						System.out.print(" "+i);
 				}
+
+
+
 
 				//获取员工数据
 				List<Employee> list = pi.getList();
